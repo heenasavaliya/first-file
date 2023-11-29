@@ -10,10 +10,10 @@ printf("Enter a value of second number : ");
 scanf("%d",&b);
 
 
-    if(a > b) {
-        printf("The minimum value : %d", a);
+    if(b > a) {
+        printf("The maximum value : %d", a);
     } else{
-        printf("the minimum value : %d", b);
+        printf("the maximum value : %d", b);
 
     }
 }
