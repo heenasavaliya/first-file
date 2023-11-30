@@ -18,7 +18,7 @@ int main(){
    if(a>b){
         if (a>c)
         {
-            if (a>d)
+            if (a>d)~
             {
                 printf("A is Max : %d",a);
 
