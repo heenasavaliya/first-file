@@ -16,8 +16,51 @@ int main(){
     scanf("%d",&d);
 
    if(a>b){
-    
-   }
+        if (a>c)
+        {
+            if (a>d)
+            {
+                printf("A is Max : %d",a);
 
+            }
+            else{
+                printf("D is Max : %d",d);
+            }
+        }
+        else{
+            if (c>d)
+            {
+                printf("C is Max : %d",c);
+            }
+            else
+            {
+                printf("D is Max : %d",d);
+            }
+            
+            
+        }
+   }
+    else{
+        if (b>c)
+        {
+            if (b>d)
+            {
+                printf("B is Max : %d",b);
+            }
+            else{
+                printf("D is Max : %d",d);
+            }
+        }
+        else{
+            if (c>d)
+            {
+                printf("C is Max : %d",c);
+            }
+            else{
+                printf("D is Max : %d",d);
+            }
+        }
+        
+    }
 
 }
