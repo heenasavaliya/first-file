@@ -15,49 +15,49 @@ int main(){
     printf("Enter a value of forth number : ");
     scanf("%d",&d);
 
-   if(a>b){
-        if (a>c)
+   if(a<b){
+        if (a<c)
         {
-            if (a>d)
+            if (a<d)
             {
-                printf("A is Max : %d",a);
+                printf("A is Minimun : %d",a);
 
             }
             else{
-                printf("D is Max : %d",d);
+                printf("D is Minimum : %d",d);
             }
         }
         else{
-            if (c>d)
+            if (c<d)
             {
-                printf("C is Max : %d",c);
+                printf("C is Minimum : %d",c);
             }
             else
             {
-                printf("D is Max : %d",d);
+                printf("D is Minimum : %d",d);
             }
             
             
         }
    }
     else{
-        if (b>c)
+        if (b<c)
         {
-            if (b>d)
+            if (b<d)
             {
-                printf("B is Max : %d",b);
+                printf("B is Minimum : %d",b);
             }
             else{
-                printf("D is Max : %d",d);
+                printf("D is Minimum : %d",d);
             }
         }
         else{
-            if (c>d)
+            if (c<d)
             {
-                printf("C is Max : %d",c);
+                printf("C is Minimum : %d",c);
             }
             else{
-                printf("D is Max : %d",d);
+                printf("D is Minimum : %d",d);
             }
         }
         
